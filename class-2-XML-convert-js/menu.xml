@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <item>
+        <name>laptop</name>
+        <price>10,000</price>
+        <qty>6</qty>
+        <description>this is a laptop</description>
+    </item>
+    <item>
+        <name>mobile</name>
+        <price>5,000</price>
+        <qty>10</qty>
+        <description>this is a mobile</description>
+    </item>
+    <item>
+        <name>tablet</name>
+        <price>7,000</price>
+        <qty>8</qty>
+        <description>this is a tablet</description>
+    </item>
+    <item>
+        <name>pc</name>
+        <price>10,000</price>
+        <qty>6</qty>
+        <description>this is a pc</description>
+    </item>
+    <item>
+        <name>headphone</name>
+        <price>1,000</price>
+        <qty>12</qty>
+        <description>this is a headphone</description>
+    </item>
+    <item>
+        <name>speaker</name>
+        <price>2,000</price>
+        <qty>5</qty>
+        <description>this is a speaker</description>
+    </item>
+    <item>
+        <name>monitor</name>
+        <price>3,000</price>
+        <qty>7</qty>
+        <description>this is a monitor</description>
+    </item>
+    <item>
+        <name>keyboard</name>
+        <price>500</price>
+        <qty>15</qty>
+        <description>this is a keyboard</description>
+    </item>
+</menu>
