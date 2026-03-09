@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Products SYSTEM "menu.dtd">
+
+<Products>
+
+    <product>
+
+        <name>fridge</name>
+        <price>3000</price>
+       
+    </product>
+
+    <product>
+
+        <name>table</name>
+        <price>300</price>
+     
+    </product>
+
+    <product>
+
+        <name>Ac</name>
+        <price>4000</price>
+
+
+      </product>
+   
+</Products>
