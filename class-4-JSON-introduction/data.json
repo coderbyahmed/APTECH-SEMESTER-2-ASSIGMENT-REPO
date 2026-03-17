@@ -1,0 +1,74 @@
+{
+    "studentData": [
+        {
+            "name": "Ali Khan",
+            "fathername": "Ahmed Khan",
+            "age": 20,
+            "city": "Lahore",
+            "address": "123 Model Town, Lahore"
+        },
+        {
+            "name": "Sara Ahmed",
+            "fathername": "Mohammed Ahmed",
+            "age": 19,
+            "city": "Karachi",
+            "address": "456 Clifton, Karachi"
+        },
+        {
+            "name": "Omar Farooq",
+            "fathername": "Abdul Farooq",
+            "age": 22,
+            "city": "Islamabad",
+            "address": "789 F-7 Sector, Islamabad"
+        },
+        {
+            "name": "Ayesha Malik",
+            "fathername": "Tariq Malik",
+            "age": 21,
+            "city": "Peshawar",
+            "address": "321 Hayatabad, Peshawar"
+        },
+        {
+            "name": "Bilal Hassan",
+            "fathername": "Rizwan Hassan",
+            "age": 18,
+            "city": "Quetta",
+            "address": "654 Satellite Town, Quetta"
+        },
+        {
+            "name": "Fatima Riaz",
+            "fathername": "Sajid Riaz",
+            "age": 23,
+            "city": "Multan",
+            "address": "987 Bosan Road, Multan"
+        },
+        {
+            "name": "Usman Butt",
+            "fathername": "Imran Butt",
+            "age": 20,
+            "city": "Faisalabad",
+            "address": "210 Jinnah Colony, Faisalabad"
+        },
+        {
+            "name": "Zainab Noor",
+            "fathername": "Khalid Noor",
+            "age": 19,
+            "city": "Rawalpindi",
+            "address": "543 Adiala Road, Rawalpindi"
+        },
+        {
+            "name": "Hamza Iqbal",
+            "fathername": "Naveed Iqbal",
+            "age": 24,
+            "city": "Sialkot",
+            "address": "876 Paris Road, Sialkot"
+        },
+        {
+            "name": "Maryam Shah",
+            "fathername": "Asif Shah",
+            "age": 21,
+            "city": "Gujranwala",
+            "address": "432 GT Road, Gujranwala"
+        }
+    ]
+}
