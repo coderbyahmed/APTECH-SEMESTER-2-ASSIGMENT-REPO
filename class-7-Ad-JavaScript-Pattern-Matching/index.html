@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Extractor Pro</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Segoe UI, sans-serif;
+        }
+
+        body {
+            /* margin:0; */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #fff;
+        }
+
+        .container {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 15px;
+            width: 400px;
+            height: 350px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            resize: none;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            background: #22c55e;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #16a34a;
+        }
+
+        #result {
+            margin-top: 15px;
+            text-align: left;
+            background: #0f172a;
+            padding: 10px;
+            border-radius: 10px;
+            max-height: 120px;
+            overflow: auto;
+            font-size: 14px;
+        }
+
+        .email {
+            padding: 5px;
+            border-bottom: 1px solid #334155;
+        }
+
+        .count {
+            margin-top: 10px;
+            font-size: 13px;
+            color: #22c55e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>📧Email Extractor</h2>
+
+        <textarea id="text" placeholder="Paste text with emails..."></textarea>
+
+        <button onclick="extractEmails()">Extract Emails</button>
+
+        <div id="result"></div>
+        <div class="count" id="count"></div>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
