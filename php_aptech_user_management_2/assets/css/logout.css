@@ -1,0 +1,114 @@
+/* ── Logout Confirmation Modal ── */
+
+.logout-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+    padding: 20px;
+}
+
+.logout-backdrop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.logout-content {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px 28px 24px;
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.20);
+    transform: scale(0.92) translateY(12px);
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.logout-backdrop.show .logout-content {
+    transform: scale(1) translateY(0);
+}
+
+.logout-backdrop .modal-icon {
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 14px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.logout-backdrop .modal-icon-warn {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.logout-backdrop .modal-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.logout-backdrop .modal-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.logout-backdrop .modal-message {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.logout-backdrop .modal-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.logout-backdrop .btn-cancel,
+.logout-backdrop .btn-confirm {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.logout-backdrop .btn-cancel {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+.logout-backdrop .btn-cancel:hover {
+    background: #e2e8f0;
+}
+
+.logout-backdrop .btn-confirm {
+    background: #dc2626;
+    color: #fff;
+}
+
+.logout-backdrop .btn-confirm:hover {
+    background: #b91c1c;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.30);
+}
+
+.logout-backdrop .btn-confirm:active {
+    transform: translateY(0);
+}
