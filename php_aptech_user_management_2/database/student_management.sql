@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 04, 2026 at 03:05 PM
+-- Generation Time: Aug 18, 2026 at 11:17 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.1.25
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -42,9 +42,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `image`, `fullName`, `email`, `password`, `profession`, `createdAt`) VALUES
-(13, 'IMG_6a48f1c311b154.92755053.jpeg', 'ahmed', 'ahmedazizkhan405@gmail.com', '$2y$10$Yjm4D23L9IgRtepzFHF8te1qxjZtEjpON67FlQK380rXFQRT82cHm', 'Developer', '2026-07-04 11:42:59'),
-(14, 'IMG_6a48f20abfcf19.89416542.jpeg', 'hamza', 'hamza@gmail.com', '$2y$10$MxaGBMcEXuFFow0I.ge0seCKy0lyqnXZe5XnOHh235ftG9CcR1kva', 'Developer', '2026-07-04 11:44:10'),
-(15, 'IMG_6a48f3cfdb1d85.63851962.png', 'hammad', 'hammadazizkhan405@gmail.com', '$2y$10$tGVo20LaK1bPyRcC8v/KrOX/09hUUgqNMq0rLNCuVuq8WMpNNQeK.', 'Student', '2026-07-04 11:51:43');
+(16, 'IMG_6a84cb20369290.07083441.jpeg', 'ahmed', 'hammadazizkhan405@gmail.com', '$2y$10$6aj1xpOPPMuA5o2pgSAZ6ucqPwkQp2o.4IbThKbRXhiTTs5vt1JFK', 'Student', '2026-08-18 21:14:08');
 
 --
 -- Indexes for dumped tables
@@ -64,7 +62,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
